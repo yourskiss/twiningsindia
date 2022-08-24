@@ -1,0 +1,66 @@
+
+  
+  /* ######################## adresswrap ######################## */
+  .adresswrap {
+    background: #fff;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+ 
+  .adresswrap .adressmap {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    float: right;
+    height: 860px;
+    line-height: 0;
+    overflow: hidden;
+  }
+  .adresswrap .adressmap .contactusmapmyindia {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .adresswrap .adressmap .contactusmapmyindia .mapinfo {
+    padding: 3px;
+  }
+  .adresswrap .adressmap .contactusmapmyindia .mapinfo h5 {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Arial-Bold", Arial, sans-serif;
+    font-weight: 700;
+  }
+  .adresswrap .adressmap .contactusmapmyindia .mapinfo h6 {
+    font-size: 13px;
+    color: #3C3C3C;
+    font-family: "Arial-Regular", Arial, sans-serif;
+    font-weight: 300;
+  }
+  
+
+  @media only screen and (max-width:1565px) {
+   
+    .adresswrap .adressmap {
+      height: 650px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 1023px) {
+   
+    .adresswrap .adressmap {
+      height: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 479px) {
+    .adresswrap .adressmap {
+      height: 300px;
+    }
+  }
+ 
